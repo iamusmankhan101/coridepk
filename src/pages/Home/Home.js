@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import heroImage from '../assets/hero-image.png';
 import './Home.css';
 
 const Home = () => {
@@ -7,7 +8,7 @@ const Home = () => {
     <div className="home">
       {/* Hero Section */}
       <section className="hero">
-        <div className="hero-background">
+        <div className="hero-background" style={{backgroundImage: `url(${heroImage})`}}>
           <div className="hero-overlay"></div>
           <div className="container">
             <div className="hero-content">

@@ -1,0 +1,52 @@
+.offer-ride {
+  padding: 2rem 0;
+  min-height: 80vh;
+}
+
+.offer-form-section {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.offer-form {
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.form-section {
+  margin-bottom: 2rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.form-section:last-of-type {
+  border-bottom: none;
+}
+
+.form-section h3 {
+  color: var(--text-dark);
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+.form-group textarea {
+  padding: 12px;
+  border: 2px solid var(--border-color);
+  border-radius: 6px;
+  font-size: 1rem;
+  font-family: inherit;
+  resize: vertical;
+  transition: border-color 0.3s;
+}
+
+.form-group textarea:focus {
+  outline: none;
+  border-color: var(--primary-color);
+}
+
+.btn-large {
+  width: 100%;
+  margin-top: 1rem;
+}

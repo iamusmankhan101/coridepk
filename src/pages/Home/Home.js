@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import heroImage from '../assets/hero-image.png';
+import heroImage from '../../assets/hero-image.png';
 import './Home.css';
 
 const Home = () => {
@@ -14,9 +14,8 @@ const Home = () => {
             <div className="hero-content">
               <div className="hero-text">
                 <h1>
-                  <span className="highlight">Fair rides</span><br />
-                  for the price you<br />
-                  both agree on
+                  <div><span className="highlight">Co Ride</span> together.</div>
+                  <div><span className="highlight">Pay Less</span> together.</div>
                 </h1>
                 <div className="hero-buttons">
                   <Link to="/find-ride" className="btn btn-download">Download the app</Link>

@@ -7,13 +7,20 @@ const Home = () => {
     <div className="home">
       {/* Hero Section */}
       <section className="hero">
-        <div className="container">
-          <div className="hero-content">
-            <h1>Share Your Journey with Co Ride</h1>
-            <p>Connect with fellow travelers, save money, and reduce your carbon footprint with our trusted carpool platform.</p>
-            <div className="hero-buttons">
-              <Link to="/find-ride" className="btn btn-primary btn-large">Find a Ride</Link>
-              <Link to="/offer-ride" className="btn btn-outline btn-large">Offer a Ride</Link>
+        <div className="hero-background">
+          <div className="hero-overlay"></div>
+          <div className="container">
+            <div className="hero-content">
+              <div className="hero-text">
+                <h1>
+                  <span className="highlight">Fair rides</span><br />
+                  for the price you<br />
+                  both agree on
+                </h1>
+                <div className="hero-buttons">
+                  <Link to="/find-ride" className="btn btn-download">Download the app</Link>
+                </div>
+              </div>
             </div>
           </div>
         </div>
